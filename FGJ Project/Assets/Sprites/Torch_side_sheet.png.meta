@@ -1,0 +1,796 @@
+fileFormatVersion: 2
+guid: 5afc5e3fb29f17649a72bea1ced44934
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 788037731414278495
+    second: Torch_side_sheet_0
+  - first:
+      213: -1598299154252563102
+    second: Torch_side_sheet_1
+  - first:
+      213: 739434693119968443
+    second: Torch_side_sheet_2
+  - first:
+      213: 2857860314585134090
+    second: Torch_side_sheet_3
+  - first:
+      213: -4106459345424436638
+    second: Torch_side_sheet_4
+  - first:
+      213: 234688913703384053
+    second: Torch_side_sheet_5
+  - first:
+      213: 7665039643772400105
+    second: Torch_side_sheet_6
+  - first:
+      213: 1381541329134040288
+    second: Torch_side_sheet_7
+  - first:
+      213: -8622967566900285072
+    second: Torch_side_sheet_8
+  - first:
+      213: 6217942182049828412
+    second: Torch_side_sheet_9
+  - first:
+      213: 465168982495687295
+    second: Torch_side_sheet_10
+  - first:
+      213: -3817772877492051813
+    second: Torch_side_sheet_11
+  - first:
+      213: -3031775176322725692
+    second: Torch_side_sheet_12
+  - first:
+      213: 4984450554886122954
+    second: Torch_side_sheet_13
+  - first:
+      213: -6007043878986253760
+    second: Torch_side_sheet_14
+  - first:
+      213: 793579482104215637
+    second: Torch_side_sheet_15
+  - first:
+      213: -7930301396542303429
+    second: Torch_side_sheet_16
+  - first:
+      213: -4166375892417355609
+    second: Torch_side_sheet_17
+  - first:
+      213: -299907612906936599
+    second: Torch_side_sheet_18
+  - first:
+      213: -3539350909320678071
+    second: Torch_side_sheet_19
+  - first:
+      213: -4641034489415884781
+    second: Torch_side_sheet_20
+  - first:
+      213: 2357265069807114824
+    second: Torch_side_sheet_21
+  - first:
+      213: 3860051417106216499
+    second: Torch_side_sheet_22
+  - first:
+      213: -478057917808971204
+    second: Torch_side_sheet_23
+  - first:
+      213: 2069935409461670148
+    second: Torch_side_sheet_24
+  - first:
+      213: 8770557176545236037
+    second: Torch_side_sheet_25
+  - first:
+      213: -2522731420461123717
+    second: Torch_side_sheet_26
+  - first:
+      213: 4486382166012409262
+    second: Torch_side_sheet_27
+  - first:
+      213: 2382964067143671045
+    second: Torch_side_sheet_28
+  - first:
+      213: 6312496486772020214
+    second: Torch_side_sheet_29
+  - first:
+      213: 6989414682647844806
+    second: Torch_side_sheet_30
+  - first:
+      213: 4208328737462804465
+    second: Torch_side_sheet_31
+  - first:
+      213: 6713207955860256891
+    second: Torch_side_sheet_32
+  - first:
+      213: -6699860759102478721
+    second: Torch_side_sheet_33
+  - first:
+      213: 8647619062504435508
+    second: Torch_side_sheet_34
+  - first:
+      213: 4220945445965360664
+    second: Torch_side_sheet_35
+  - first:
+      213: -8651142823758136143
+    second: Torch_side_sheet_36
+  - first:
+      213: 5273158587407858606
+    second: Torch_side_sheet_37
+  - first:
+      213: -7368767101364533147
+    second: Torch_side_sheet_38
+  - first:
+      213: 9221854172796308082
+    second: Torch_side_sheet_39
+  - first:
+      213: 3610768470874390005
+    second: Torch_side_sheet_40
+  - first:
+      213: -5779022290352338160
+    second: Torch_side_sheet_41
+  - first:
+      213: -6107313785767517389
+    second: Torch_side_sheet_42
+  - first:
+      213: -2455793805479264572
+    second: Torch_side_sheet_43
+  - first:
+      213: -1288194903641431431
+    second: Torch_side_sheet_44
+  - first:
+      213: 926102877510557953
+    second: Torch_side_sheet_45
+  - first:
+      213: 1788263010568903411
+    second: Torch_side_sheet_46
+  - first:
+      213: 2326814582039961037
+    second: Torch_side_sheet_47
+  - first:
+      213: -1389979112287780850
+    second: Torch_side_sheet_48
+  - first:
+      213: -585572032462190084
+    second: Torch_side_sheet_49
+  - first:
+      213: 2444601117795178780
+    second: Torch_side_sheet_50
+  - first:
+      213: -5901155574550263450
+    second: Torch_side_sheet_51
+  - first:
+      213: 7997202441017173709
+    second: Torch_side_sheet_52
+  - first:
+      213: -4303806269610592134
+    second: Torch_side_sheet_53
+  - first:
+      213: -1779244843621404826
+    second: Torch_side_sheet_54
+  - first:
+      213: -6669075803913818703
+    second: Torch_side_sheet_55
+  - first:
+      213: -7894647634855753132
+    second: Torch_side_sheet_56
+  - first:
+      213: 8512424961487547373
+    second: Torch_side_sheet_57
+  - first:
+      213: 7374189248615625204
+    second: Torch_side_sheet_58
+  - first:
+      213: -6209361991788452953
+    second: Torch_side_sheet_59
+  - first:
+      213: -6811545312868733782
+    second: Torch_side_sheet_60
+  - first:
+      213: -3635987205437184571
+    second: Torch_side_sheet_61
+  - first:
+      213: 6884155459199516746
+    second: Torch_side_sheet_62
+  - first:
+      213: -2243714524134414895
+    second: Torch_side_sheet_63
+  - first:
+      213: 605932097231234666
+    second: Torch_side_sheet_64
+  - first:
+      213: -5910215406934204929
+    second: Torch_side_sheet_65
+  - first:
+      213: 5766691683713703595
+    second: Torch_side_sheet_66
+  - first:
+      213: 2245094153189829131
+    second: Torch_side_sheet_67
+  - first:
+      213: -4744702003823923998
+    second: Torch_side_sheet_68
+  - first:
+      213: 5271357871699486658
+    second: Torch_side_sheet_69
+  - first:
+      213: -4048473066510052663
+    second: Torch_side_sheet_70
+  - first:
+      213: -3190126154626215357
+    second: Torch_side_sheet_71
+  - first:
+      213: 8225932228068867111
+    second: Torch_side_sheet_72
+  - first:
+      213: -3562612495817055466
+    second: Torch_side_sheet_73
+  - first:
+      213: 4496319782691007414
+    second: Torch_side_sheet_74
+  - first:
+      213: 6859881664180964963
+    second: Torch_side_sheet_75
+  - first:
+      213: 1474866514539951788
+    second: Torch_side_sheet_76
+  - first:
+      213: -2929441607329931758
+    second: Torch_side_sheet_77
+  - first:
+      213: 5883662805298208607
+    second: Torch_side_sheet_78
+  - first:
+      213: -129622431290361301
+    second: Torch_side_sheet_79
+  - first:
+      213: -3660709108717746160
+    second: Torch_side_sheet_80
+  - first:
+      213: -8727698269848211665
+    second: Torch_side_sheet_81
+  - first:
+      213: 8338647006952923517
+    second: Torch_side_sheet_82
+  - first:
+      213: -281269890627731957
+    second: Torch_side_sheet_83
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Torch_side_sheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1920
+        width: 480
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f518d8a342cafea00800000000000000
+      internalID: 788037731414278495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Torch_side_sheet_1
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 1920
+        width: 480
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26df7f92363b1d9e0800000000000000
+      internalID: -1598299154252563102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Torch_side_sheet_2
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 1920
+        width: 480
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb4040a8feff24a00800000000000000
+      internalID: 739434693119968443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Torch_side_sheet_3
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 1920
+        width: 480
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a04788480d829a720800000000000000
+      internalID: 2857860314585134090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Torch_side_sheet_4
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 1920
+        width: 480
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 262b4677bfce207c0800000000000000
+      internalID: -4106459345424436638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Torch_side_sheet_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1440
+        width: 480
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f33306d258c14300800000000000000
+      internalID: 234688913703384053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Torch_side_sheet_6
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 1440
+        width: 480
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e13754e1f0bf5a60800000000000000
+      internalID: 7665039643772400105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Torch_side_sheet_7
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 1440
+        width: 480
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e43e85e4883c2310800000000000000
+      internalID: 1381541329134040288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Torch_side_sheet_8
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 1440
+        width: 480
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 071b1313fa0155880800000000000000
+      internalID: -8622967566900285072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Torch_side_sheet_9
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 1440
+        width: 480
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3e4ff278719a4650800000000000000
+      internalID: 6217942182049828412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Torch_side_sheet_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 960
+        width: 480
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f727f2a99bc947600800000000000000
+      internalID: 465168982495687295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Torch_side_sheet_11
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 960
+        width: 480
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9027fb9bcb840bc0800000000000000
+      internalID: -3817772877492051813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Torch_side_sheet_12
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 960
+        width: 480
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c8cf684a88fce5d0800000000000000
+      internalID: -3031775176322725692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Torch_side_sheet_13
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 960
+        width: 480
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acd6c74fe535c2540800000000000000
+      internalID: 4984450554886122954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Torch_side_sheet_14
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 960
+        width: 480
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04af6d23b61b2aca0800000000000000
+      internalID: -6007043878986253760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Torch_side_sheet_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 480
+        width: 480
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5583cdb955c530b00800000000000000
+      internalID: 793579482104215637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Torch_side_sheet_16
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 480
+        width: 480
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b33df4975e8e1f190800000000000000
+      internalID: -7930301396542303429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Torch_side_sheet_17
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 480
+        width: 480
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a066b3433f0e26c0800000000000000
+      internalID: -4166375892417355609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Torch_side_sheet_18
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 480
+        width: 480
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e62f337d9386dbf0800000000000000
+      internalID: -299907612906936599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Torch_side_sheet_19
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 480
+        width: 480
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9453c7aa913b1eec0800000000000000
+      internalID: -3539350909320678071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Torch_side_sheet_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 480
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 310a70c98bbb79fb0800000000000000
+      internalID: -4641034489415884781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
