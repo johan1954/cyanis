@@ -11,29 +11,30 @@ public class Movement : MonoBehaviour
     private Animator animator;
     private Rigidbody2D rb;
 
-    //Save original rotation
     void Start() {
+        //Save original rotation
         originalRotation = transform.rotation;
         animator = this.GetComponent<Animator>();
         rb = this.GetComponent<Rigidbody2D>();
     }
 
-    // Update is called once per frame
     void Update()
     {
         var vertical = Input.GetAxis("Vertical");
         var horizontal = Input.GetAxis("Horizontal");
         var xVelocity = rb.velocity.x;
         //Move the character 
+        if (Quaternion.Angle(transform.rotation, originalRotation) < 45) {
         transform.Translate(horizontal * runSpeed * Time.deltaTime, 0f, 0f);
+        }
         transform.Translate(0f, vertical * 1f * Time.deltaTime, 0f);
-
+        
         //Flip the character
         Vector3 characterScale = transform.localScale;  
-        if (horizontal < 0) {
+        if (horizontal < 0 && Quaternion.Angle(transform.rotation, originalRotation) < 45) {
             characterScale.x = -1;
             animator.SetInteger("walking", 1);
-        } else if (horizontal > 0) {
+        } else if (horizontal > 0 && Quaternion.Angle(transform.rotation, originalRotation) < 45) {
             characterScale.x = 1;
             animator.SetInteger("walking", 1);
         } else if (xVelocity != 0) {
