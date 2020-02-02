@@ -2,13 +2,15 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using TMPro;
 
 [RequireComponent(typeof(AudioSource))]
 public class Victory : MonoBehaviour
 {
-    private GameObject tablet, breakTablet;
+    private GameObject tablet, breakTablet, infotextbox;
     private GameObject[] piecesAll;
     public AudioClip repairSound;
+    public TMP_Text infotext;
     public AudioClip breakSound;
     public bool hasBroken =false;
 
@@ -17,6 +19,8 @@ public class Victory : MonoBehaviour
         tablet = GameObject.FindWithTag("FullTablet");
         breakTablet = GameObject.FindWithTag("BreakTablet");
         piecesAll = GameObject.FindGameObjectsWithTag("TabletPiece");
+        infotextbox = GameObject.FindWithTag("InfoText");
+        infotext = infotextbox.GetComponent<TMP_Text>();
     }
 
     void OnTriggerEnter2D (Collider2D collider) {
@@ -24,7 +28,7 @@ public class Victory : MonoBehaviour
         if (collider.gameObject.tag == "Player") {
             if (GlobalAmount.pieces == 4) {
                 tablet.GetComponent<SpriteRenderer>().enabled = true;
-                Debug.Log("Victory!");
+                GameObject.Find("Clara").GetComponent<Movement>().enabled = false;
                 StartCoroutine(Winning());
                 audio.clip = repairSound;
                 audio.Play();
@@ -58,5 +62,16 @@ public class Victory : MonoBehaviour
 
         breakTablet.GetComponent<SpriteRenderer>().enabled = false;
         hasBroken = true;
+        infotext.enabled = true;
+        yield return new WaitForSeconds(3);
+        infotext.enabled = false;
+        /*        TextAppear();*/
+
     }
+/*
+    IEnumerator TextAppear()
+    {
+        yield return new WaitForSeconds(3);
+        infotext.enabled = false;
+    }*/
 }
