@@ -37,8 +37,12 @@ public class Movement : MonoBehaviour
         transform.Translate(0f, vertical * 1f * Time.deltaTime, 0f);
 
         //Flip the character
-        Vector3 characterScale = transform.localScale;  
-        if (horizontal < 0 && Quaternion.Angle(transform.rotation, originalRotation) < 45) {
+        Vector3 characterScale = transform.localScale; 
+        if (yVelocity < -0.9) {
+            animator.SetInteger("walking", 2);
+            isWalking = 2f;
+            StartCoroutine(PlaySound());
+        } else if (horizontal < 0 && Quaternion.Angle(transform.rotation, originalRotation) < 45) {
             characterScale.x = -1;
             animator.SetInteger("walking", 1);
             isWalking = 1f;
@@ -48,11 +52,7 @@ public class Movement : MonoBehaviour
             animator.SetInteger("walking", 1);
             isWalking = 1f;
             StartCoroutine(PlaySound());
-        } else if (yVelocity != 0) {
-            animator.SetInteger("walking", 2);
-            isWalking = 2f;
-            StartCoroutine(PlaySound());
-        } else {
+        }  else {
             animator.SetInteger("walking", 0);
             isWalking = 0f;
             StartCoroutine(PlaySound());
@@ -72,17 +72,16 @@ public class Movement : MonoBehaviour
         
         if (isWalking == 1f) {
             if (audio.clip != clipRun) {
+                audio.loop = true;
                 audio.clip = clipRun;
                 audio.Play();
-                audio.loop = true;
-                yield return new WaitForSeconds(2);
+                yield return new WaitForSeconds(1);
             }
         } else if (isWalking == 2f) {
             if (audio.clip != clipJump) {
+                audio.loop = false;
                 audio.clip = clipJump;
                 audio.Play();
-                //audio.loop = true;
-                yield return new WaitForSeconds(10);
             }
         } 
         else {

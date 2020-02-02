@@ -9,6 +9,11 @@ TagManager:
   - UIText
   - DoorTriggerLeft
   - DoorTriggerRight
+  - DoorTriggerUp
+  - DoorTriggerDown
+  - FullTablet
+  - BreakTablet
+  - TabletPiece
   layers:
   - Default
   - TransparentFX

@@ -2,11 +2,13 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+[RequireComponent(typeof(AudioSource))]
 public class CrumblingScript : MonoBehaviour
 {
     private Animator animator;
     private float newlength;
     public float secondsToPlatform;
+    public AudioClip crumblingSound;
 
     // Start is called before the first frame update
     void Start()
@@ -24,6 +26,9 @@ public class CrumblingScript : MonoBehaviour
         {
             animator.SetInteger("crumbling", 1);
         }
+        AudioSource audio = this.GetComponent<AudioSource>();
+        audio.clip = crumblingSound;
+        audio.Play();
     }
 
     public void DestroyPlatform()
