@@ -14,4 +14,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/FirstRoom.unity
     guid: 7c56f58c95c8ac64c810eff430a53536
+  - enabled: 1
+    path: Assets/Scenes/Victory.unity
+    guid: cff41eb29769641e8935d1c87d886e60
   m_configObjects: {}

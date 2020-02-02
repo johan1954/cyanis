@@ -10,7 +10,6 @@ public class Collectable : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-
         text = GameObject.FindWithTag("UIText");
         textMeshPro = text.GetComponent<TMP_Text>();
         //textMeshPro.text = "Lol heeh";
